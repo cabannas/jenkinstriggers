@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage('Build') {
-            stesps{
+            steps{
                 sh 'echo "Build Completed."'
             }
         }
